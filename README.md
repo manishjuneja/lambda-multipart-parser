@@ -39,8 +39,6 @@ Please make sure to enable the "Use Lambda Proxy integration" in API Gateway met
 
 If decided not to enable it for some reason, make sure to pass the required Lambda event parameters in Integration Request -> Mapping Templates section, such as body, headers and isBase64Encoded flag.
 
-Sample Lambda and API Gateway implementation with Cloudformation can be found in [here](http://francismeynard.github.io/aws-upload-document-service).
-
 ## Test
 ```
 npm run test
